@@ -1,0 +1,642 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "guid": "",
+            "signed_hash": "",
+            "signer_guid": "",
+            "object_name": "",
+            "sarcat_version": "",
+            "object_version": "",
+            "created_ts": "",
+            "updated_ts": "",
+            "data": {
+                "meta": {
+                    "guid": "",
+                    "signedHash": "",
+                    "signer_guid": "",
+                    "object_name": "",
+                    "sarcat_version": "",
+                    "object_version": "",
+                    "creadted_ts": "",
+                    "updated_ts": "",
+                    "contributors": [
+                        {
+                            "version": "",
+                            "guids": [],
+                            "created_ts": ""
+                        }
+                    ]
+                },
+                "SARCAT": {
+                    "guid": "",
+                    "asset_guid": "",
+                    "technology_guid": "",
+                    "assessment_guid": "",
+                    "event_ts": "",
+                    "vuln_guid": "",
+                    "cve": "",
+                    "cvss_2": {},
+                    "cvss_3": {},
+                    "mitre_link": "",
+                    "original_severity": "",
+                    "control_family": "",
+                    "control": "",
+                    "control_enhancement": "",
+                    "known_good": "",
+                    "assessment_method": "",
+                    "assessment_result": "",
+                    "observed_gap": ""
+                }
+            }
+        }
+    ],
+    "required": [
+        "guid",
+        "signed_hash",
+        "signer_guid",
+        "object_name",
+        "sarcat_version",
+        "object_version",
+        "created_ts",
+        "updated_ts",
+        "data"
+    ],
+    "properties": {
+        "guid": {
+            "$id": "#/properties/guid",
+            "type": "string",
+            "title": "The guid schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "signed_hash": {
+            "$id": "#/properties/signed_hash",
+            "type": "string",
+            "title": "The signed_hash schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "signer_guid": {
+            "$id": "#/properties/signer_guid",
+            "type": "string",
+            "title": "The signer_guid schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "object_name": {
+            "$id": "#/properties/object_name",
+            "type": "string",
+            "title": "The object_name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "sarcat_version": {
+            "$id": "#/properties/sarcat_version",
+            "type": "string",
+            "title": "The sarcat_version schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "object_version": {
+            "$id": "#/properties/object_version",
+            "type": "string",
+            "title": "The object_version schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "created_ts": {
+            "$id": "#/properties/created_ts",
+            "type": "string",
+            "title": "The created_ts schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "updated_ts": {
+            "$id": "#/properties/updated_ts",
+            "type": "string",
+            "title": "The updated_ts schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "data": {
+            "$id": "#/properties/data",
+            "type": "object",
+            "title": "The data schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "meta": {
+                        "guid": "",
+                        "signedHash": "",
+                        "signer_guid": "",
+                        "object_name": "",
+                        "sarcat_version": "",
+                        "object_version": "",
+                        "creadted_ts": "",
+                        "updated_ts": "",
+                        "contributors": [
+                            {
+                                "version": "",
+                                "guids": [],
+                                "created_ts": ""
+                            }
+                        ]
+                    },
+                    "SARCAT": {
+                        "guid": "",
+                        "asset_guid": "",
+                        "technology_guid": "",
+                        "assessment_guid": "",
+                        "event_ts": "",
+                        "vuln_guid": "",
+                        "cve": "",
+                        "cvss_2": {},
+                        "cvss_3": {},
+                        "mitre_link": "",
+                        "original_severity": "",
+                        "control_family": "",
+                        "control": "",
+                        "control_enhancement": "",
+                        "known_good": "",
+                        "assessment_method": "",
+                        "assessment_result": "",
+                        "observed_gap": ""
+                    }
+                }
+            ],
+            "required": [
+                "meta",
+                "SARCAT"
+            ],
+            "properties": {
+                "meta": {
+                    "$id": "#/properties/data/properties/meta",
+                    "type": "object",
+                    "title": "The meta schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                            "guid": "",
+                            "signedHash": "",
+                            "signer_guid": "",
+                            "object_name": "",
+                            "sarcat_version": "",
+                            "object_version": "",
+                            "creadted_ts": "",
+                            "updated_ts": "",
+                            "contributors": [
+                                {
+                                    "version": "",
+                                    "guids": [],
+                                    "created_ts": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "required": [
+                        "guid",
+                        "signedHash",
+                        "signer_guid",
+                        "object_name",
+                        "sarcat_version",
+                        "object_version",
+                        "creadted_ts",
+                        "updated_ts",
+                        "contributors"
+                    ],
+                    "properties": {
+                        "guid": {
+                            "$id": "#/properties/data/properties/meta/properties/guid",
+                            "type": "string",
+                            "title": "The guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "signedHash": {
+                            "$id": "#/properties/data/properties/meta/properties/signedHash",
+                            "type": "string",
+                            "title": "The signedHash schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "signer_guid": {
+                            "$id": "#/properties/data/properties/meta/properties/signer_guid",
+                            "type": "string",
+                            "title": "The signer_guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "object_name": {
+                            "$id": "#/properties/data/properties/meta/properties/object_name",
+                            "type": "string",
+                            "title": "The object_name schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "sarcat_version": {
+                            "$id": "#/properties/data/properties/meta/properties/sarcat_version",
+                            "type": "string",
+                            "title": "The sarcat_version schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "object_version": {
+                            "$id": "#/properties/data/properties/meta/properties/object_version",
+                            "type": "string",
+                            "title": "The object_version schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "creadted_ts": {
+                            "$id": "#/properties/data/properties/meta/properties/creadted_ts",
+                            "type": "string",
+                            "title": "The creadted_ts schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "updated_ts": {
+                            "$id": "#/properties/data/properties/meta/properties/updated_ts",
+                            "type": "string",
+                            "title": "The updated_ts schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "contributors": {
+                            "$id": "#/properties/data/properties/meta/properties/contributors",
+                            "type": "array",
+                            "title": "The contributors schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": [],
+                            "examples": [
+                                [
+                                    {
+                                        "version": "",
+                                        "guids": [],
+                                        "created_ts": ""
+                                    }
+                                ]
+                            ],
+                            "additionalItems": true,
+                            "items": {
+                                "$id": "#/properties/data/properties/meta/properties/contributors/items",
+                                "anyOf": [
+                                    {
+                                        "$id": "#/properties/data/properties/meta/properties/contributors/items/anyOf/0",
+                                        "type": "object",
+                                        "title": "The first anyOf schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": {},
+                                        "examples": [
+                                            {
+                                                "version": "",
+                                                "guids": [],
+                                                "created_ts": ""
+                                            }
+                                        ],
+                                        "required": [
+                                            "version",
+                                            "guids",
+                                            "created_ts"
+                                        ],
+                                        "properties": {
+                                            "version": {
+                                                "$id": "#/properties/data/properties/meta/properties/contributors/items/anyOf/0/properties/version",
+                                                "type": "string",
+                                                "title": "The version schema",
+                                                "description": "An explanation about the purpose of this instance.",
+                                                "default": "",
+                                                "examples": [
+                                                    ""
+                                                ]
+                                            },
+                                            "guids": {
+                                                "$id": "#/properties/data/properties/meta/properties/contributors/items/anyOf/0/properties/guids",
+                                                "type": "array",
+                                                "title": "The guids schema",
+                                                "description": "An explanation about the purpose of this instance.",
+                                                "default": [],
+                                                "examples": [
+                                                    []
+                                                ],
+                                                "additionalItems": true,
+                                                "items": {
+                                                    "$id": "#/properties/data/properties/meta/properties/contributors/items/anyOf/0/properties/guids/items"
+                                                }
+                                            },
+                                            "created_ts": {
+                                                "$id": "#/properties/data/properties/meta/properties/contributors/items/anyOf/0/properties/created_ts",
+                                                "type": "string",
+                                                "title": "The created_ts schema",
+                                                "description": "An explanation about the purpose of this instance.",
+                                                "default": "",
+                                                "examples": [
+                                                    ""
+                                                ]
+                                            }
+                                        },
+                                        "additionalProperties": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "additionalProperties": true
+                },
+                "SARCAT": {
+                    "$id": "#/properties/data/properties/SARCAT",
+                    "type": "object",
+                    "title": "The SARCAT schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                            "guid": "",
+                            "asset_guid": "",
+                            "technology_guid": "",
+                            "assessment_guid": "",
+                            "event_ts": "",
+                            "vuln_guid": "",
+                            "cve": "",
+                            "cvss_2": {},
+                            "cvss_3": {},
+                            "mitre_link": "",
+                            "original_severity": "",
+                            "control_family": "",
+                            "control": "",
+                            "control_enhancement": "",
+                            "known_good": "",
+                            "assessment_method": "",
+                            "assessment_result": "",
+                            "observed_gap": ""
+                        }
+                    ],
+                    "required": [
+                        "guid",
+                        "asset_guid",
+                        "technology_guid",
+                        "assessment_guid",
+                        "event_ts",
+                        "vuln_guid",
+                        "cve",
+                        "cvss_2",
+                        "cvss_3",
+                        "mitre_link",
+                        "original_severity",
+                        "control_family",
+                        "control",
+                        "control_enhancement",
+                        "known_good",
+                        "assessment_method",
+                        "assessment_result",
+                        "observed_gap"
+                    ],
+                    "properties": {
+                        "guid": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/guid",
+                            "type": "string",
+                            "title": "The guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "asset_guid": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/asset_guid",
+                            "type": "string",
+                            "title": "The asset_guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "technology_guid": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/technology_guid",
+                            "type": "string",
+                            "title": "The technology_guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "assessment_guid": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/assessment_guid",
+                            "type": "string",
+                            "title": "The assessment_guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "event_ts": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/event_ts",
+                            "type": "string",
+                            "title": "The event_ts schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "vuln_guid": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/vuln_guid",
+                            "type": "string",
+                            "title": "The vuln_guid schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "cve": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/cve",
+                            "type": "string",
+                            "title": "The cve schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "cvss_2": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/cvss_2",
+                            "type": "object",
+                            "title": "The cvss_2 schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": {},
+                            "examples": [
+                                {}
+                            ],
+                            "required": [],
+                            "additionalProperties": true
+                        },
+                        "cvss_3": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/cvss_3",
+                            "type": "object",
+                            "title": "The cvss_3 schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": {},
+                            "examples": [
+                                {}
+                            ],
+                            "required": [],
+                            "additionalProperties": true
+                        },
+                        "mitre_link": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/mitre_link",
+                            "type": "string",
+                            "title": "The mitre_link schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "original_severity": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/original_severity",
+                            "type": "string",
+                            "title": "The original_severity schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "control_family": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/control_family",
+                            "type": "string",
+                            "title": "The control_family schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "control": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/control",
+                            "type": "string",
+                            "title": "The control schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "control_enhancement": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/control_enhancement",
+                            "type": "string",
+                            "title": "The control_enhancement schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "known_good": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/known_good",
+                            "type": "string",
+                            "title": "The known_good schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "assessment_method": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/assessment_method",
+                            "type": "string",
+                            "title": "The assessment_method schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "assessment_result": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/assessment_result",
+                            "type": "string",
+                            "title": "The assessment_result schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        },
+                        "observed_gap": {
+                            "$id": "#/properties/data/properties/SARCAT/properties/observed_gap",
+                            "type": "string",
+                            "title": "The observed_gap schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                ""
+                            ]
+                        }
+                    },
+                    "additionalProperties": true
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}
