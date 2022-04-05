@@ -1,4 +1,4 @@
-# Object Hierarchy and Repostructure
+# Object Hierarchy and Repo Structure
 
 
 ## Entity Registry
