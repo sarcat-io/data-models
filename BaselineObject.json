@@ -1,0 +1,28 @@
+{
+    "guid":"",
+    "signed_hash":"",
+    "signer_guid":"",
+    "object_name":"",
+    "sarcat_version":"",
+    "object_version":"",
+    "created_ts":"",
+    "updated_ts":"",
+    "data": {
+        "meta":{
+            "guid":"",
+            "signedHash":"",
+            "signer_guid":"",
+            "object_name":"",
+            "sarcat_version":"",
+            "object_version":"",
+            "creadted_ts":"",
+            "updated_ts":"",
+            "contributors": [
+                {"version":"","guids":[],"created_ts":""}
+            ]
+        },        
+        "SARCAT":{
+            "info":"use case specific data goes here"
+        }
+    }
+}

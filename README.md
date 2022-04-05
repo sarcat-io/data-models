@@ -1,33 +1,15 @@
-# data-models
+# Object Hierarchy and Repostructure
 
 
-### Definition of done:
-
-Complete data model for the following object types:
-
-Formatted raw 
-## Evidence Objects
- - Single instance partial control scope 
- - Aggregate of single instance partial control scope 
- - Aggregate representing complete control scope
-
-## Configuration
-
- - Known
- - Partial control 
- - Single Control inventory of partials
- - Control Family inventory of single controls
-
-## Validation
-- Single instance partial control
-- Aggregate
+## Entity Registry
+Register entities for programmatic cross-referencing and coordination. Required for participation in SARCAT.
 
 
-## Events
-Events: Bundle posted, validated CSP, validated AO
+## Standard Objects
+Standardized Object schemas for inclusion in SARCAT bundles. Operationally consumed by SARCAT tooling and used for coordinated data structure standards.
 
-Action items 
-Summary 
-Bundle 
-Bundle Manifest 
-Authorization (PMO approval)
+## Technology Registry
+For corellating risk management, deviations, shared tooling, remediation / false positives, vendor dependencies etc... across all SARCAT participants
+
+## Tooling
+The actual code and tooling 

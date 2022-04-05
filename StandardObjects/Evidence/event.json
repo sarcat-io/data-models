@@ -1,0 +1,45 @@
+{
+    "guid":"",
+    "signed_hash":"",
+    "signer_guid":"",
+    "object_name":"",
+    "sarcat_version":"",
+    "object_version":"",
+    "created_ts":"",
+    "updated_ts":"",
+    "data": {
+        "meta":{
+            "guid":"",
+            "signedHash":"",
+            "signer_guid":"",
+            "object_name":"",
+            "sarcat_version":"",
+            "object_version":"",
+            "creadted_ts":"",
+            "updated_ts":"",
+            "contributors": [
+                {"version":"","guids":[],"created_ts":""}
+            ]
+        },        
+        "SARCAT":{
+            "guid":"",
+            "asset_guid": "",
+            "technology_guid":"",
+            "assessment_guid":"",
+            "event_ts":"",
+            "vuln_guid":"",
+            "cve":"",
+            "cvss_2":{},
+            "cvss_3":{},
+            "mitre_link":"",
+            "original_severity":"",
+            "control_family":"",
+            "control":"",
+            "controol_enhacement":"",
+            "known_good":"",
+            "assessment_method":"",
+            "assessment_result":"",
+            "observed_gap":""
+        }
+    }
+}
